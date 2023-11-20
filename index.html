@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shane_portfolio</title>
+    <link rel="icon" href="img/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Shane's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="project.html">Project</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi..! My name is <span class="yellow">Shane</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn"><a
+                            href="https://docs.google.com/document/d/1IKH1EqtkOHsw-M7n-934Of5mzrgOmGhO80CBzmm3BqU/edit">Download
+                            Resume</a></button>
+                    <button class="btn"><a href="github.com">Visit Github</a></button>
+                </div>
+            </div>
+            <div class="images">
+                <img class="shape" src="img/personshadow.png" alt="">
+                <img class="man" src="img/person.png" alt="">
+            </div>
+        </section>
+
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['Web developer', 'Graphic Designer', 'Web Designer', 'Video Editor'],
+                typeSpeed: 50,
+            });
+        </script>
+
+
+</body>
+
+</html>
